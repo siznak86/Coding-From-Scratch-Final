@@ -1,0 +1,54 @@
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: #3067AE;
+}
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+article{
+    margin: auto;
+    font-family: 'Chela One', sans-serif;
+    text-align: center;
+    background-color: #5CD5BF;
+}
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+#idCard {
+    border-radius: 25px;
+    padding: 20px;
+    border: 5px solid black;
+    height: 14em;
+    width: 25em;
+}
+#postFullName{
+    font-size: 40px;
+}
+#postAge{
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:5px;
+    font-size:2em;
+    font-weight: lighter;
+}
+#postphoneNumber{
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:5px;
+    font-size:2em;
+    font-weight: lighter;
+}
+#postAddress{
+    text-align: left;
+    padding-left:20px;
+    padding-bottom:5px;
+    font-size:25px;
+    font-weight: lighter;
+}

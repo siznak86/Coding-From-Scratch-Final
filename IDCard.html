@@ -1,0 +1,38 @@
+<!DOCType html>
+<html>
+    <head>
+    
+        <title>ID Final Project</title>
+        <link rel="stylesheet" href="IDCard.css">
+        <link href="https://fonts.googleapis.com/css?family=Chela+One|Josefin+Sans" rel="stylesheet">
+    
+    </head>
+    <body>
+
+        <h1>Let's Create an ID card!</h1><br>
+
+        <section>
+            First Name:<br><input id="firstName" type="text" /><br><br>
+            Last Name:<br><input id="lastName" type="text" /><br><br>
+            Age:<br><input id="age" type="number" min="0" /><br><br>
+            Phone Number:<br><input id="phoneNumber" type="tel" /><br><br>
+            Address:<br><input id="streetAddress" type="text" /><br><br>
+            <button onclick="idCard()">"Get ID Card!"</button>
+            <br><br><br>
+        
+            <article id="idCard">   
+
+                <img src ="https://png2.kisspng.com/20180529/ouk/kisspng-user-profile-computer-icons-login-user-avatars-5b0d9431e004b5.1250351715276165619176.png">
+                <div id="postFullName"></div>
+                <br><br><br>
+                <div id="postAge"></div>
+                <div id="postphoneNumber"></div>
+                <div id="postAddress"></div>
+                   
+            </article>
+        
+        </section>
+
+        <script src="IDCard.js"></script>
+    </body>
+</html>
